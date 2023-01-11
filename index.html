@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Форма регистрации</title>
+</head>
+<body>
+  <div class="auth">
+    <form class="form" action="#" method="post">
+      <h1 class="form-title">Регистрация</h1>
+      <div class="form-group">
+        <input class="form-input" type="text" name="name" placeholder="Ваше имя">
+      </div>
+
+      <div class="form-group">
+        <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
+      </div>
+
+      <div class="form-group">
+        <input class="form-input" type="tel" name="tel" placeholder="Ваш телефон">
+      </div>
+
+      <div class="form-group">
+        <input class="form-input" type="password" name="password" placeholder="Придумайте пароль">
+      </div>
+
+      <div class="form-group">
+        <input class="form-input" type="password" name="password" placeholder="Повторите пароль">
+      </div>
+
+      <div class="form-group">
+        <select class="city">
+          <option>Москва</option>
+          <option>Санкт-Петербург</option>
+          <option>Новосибирск</option>
+          <option>Екатеринбург</option>
+          <option>Казань</option>
+          <option>Нижний Новгород</option>
+          <option>Омск</option>
+          <option>Ростов-на-Дону</option>
+          <option>Самара</option>
+          <option>Уфа</option>
+          <option>Красноярск</option>
+          <option>Воронеж</option>
+          <option>Пермь</option>
+          <option>Волгоград</option>
+          <option>Краснодар</option>
+          <option>Тюмень</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="male">Муж</label>
+        <input type="radio" name="choose-male" id="male">
+
+        <label for="female">Жен</label>
+        <input type="radio" name="choose-male" id="female">
+      </div>
+
+
+      <div class="form-group">
+        <label for="foto">Выберите фото</label>
+        <input type="file" name="choose-foto" id="foto">
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" name="rules-agree" id="agree">
+        <label for="agree">Условия прочел, согласен.</label>
+      </div>
+
+      <button class="btn" type="submit">Отправить</button>
+
+    </form>
+
+
+  </div>
+
+</body>
+</html>
